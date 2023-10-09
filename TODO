@@ -1,0 +1,22 @@
+SCRAPER:
+    ☐ get the data from the site
+        ✔ open site @done(23-09-28 18:28)
+        ✔ loop over tickets and open prizes remaining @started(23-09-28 18:28) @done(23-09-28 19:13) @lasted(15m47s)
+        ✔ get data from site @started(23-09-28 19:16) @done(23-09-28 19:50) @lasted(34m31s)
+        ✔ get data 2 @started(23-09-28 20:05) @done(23-09-28 20:27) @lasted(22m57s)
+        ☐ get data from popup
+    ☐ put into DF
+    ✔ create ticket object @10m @started(23-09-28 19:07) @done(23-09-28 19:13) @lasted(6m36s)
+
+
+
+UI:
+    ✔ set up container to run it @10m @started(23-10-01 19:04) @done(23-10-01 19:08) @lasted(4m49s)
+    ✔ check load data in PD @started(23-09-28 21:07) @done(23-09-28 21:45) @lasted(38m52s)
+    ☐ display data in a sortable DF on page @started(23-10-01 19:08)
+    ☐ make a side bar with filters
+    ☐ make a search bar
+
+Docker:
+    ☐ set up scraper in docker @low
+    ☐ set up UI in docker
